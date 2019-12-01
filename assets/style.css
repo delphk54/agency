@@ -17,16 +17,12 @@ figure{
    padding: 100px;
    margin: auto;
 }
-.NOS SERVICES{
-    width: 100%;
-    display: flex;
-    align-items: center;
+.NOS h1{
+    text-align: center;  
     
 }
-.NOS PROJETS{
-    width: 100%;
-    display: flex;
-    
+.NOS p{
+    text-align: center;
 }
 button a{
     display: flex;
@@ -46,6 +42,7 @@ button a{
     margin-right: 20%;
     margin-top: 2%;
     margin-bottom: 2%;
+
 }
     
 
