@@ -1,0 +1,55 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+nav{
+    width: 100%;
+    display: flex;
+}
+nav a{
+    margin: auto; 
+    justify-content: space-between;
+    display: flex;
+    align-items: center;  
+}
+figure{
+   padding: 100px;
+   margin: auto;
+}
+.NOS SERVICES{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+.NOS PROJETS{
+    width: 100%;
+    display: flex;
+    
+}
+button a{
+    display: flex;
+    align-items: center;
+} 
+.image{
+   display: flex;
+   justify-content: space-around;
+   margin-left:20%;
+   margin-right: 20%; 
+   
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+    margin-left:20%;
+    margin-right: 20%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+    
+
+   
+
+
+    
