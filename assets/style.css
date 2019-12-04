@@ -27,13 +27,16 @@ figure div h1{
 }
 #moncercle{
   display: flex;
-  background:#bfd70e;
+  background: blue;
   border-radius:50%;
   width:10px;
   height:10px;
-  border:2px solid #679403; 
+  border:4px solid aqua; 
   margin: auto;
   
+}
+.buttons{
+    
 }
 .projets{
     display: block;
@@ -49,12 +52,9 @@ figure div h1{
     height: 3em;
     font-size: 1em;
 }   
-nav a{
-    display: flex ;
-    margin : auto; 
+.projets nav ul div button a{
+    display: flex;
     justify-content: space-around;
-    text-align: right;
-    
 }
 button a{
     display: flex;
