@@ -3,26 +3,50 @@ header{
     justify-content: space-between;
     margin: auto;
 }
-nav{
-    width: 100%;
-    display: flex;
+main{
+    width: 80%;
+    position: absolute;
 }
+/*  */
+figure{
+    padding: 100px;
+    margin: auto;
+}
+figure div{
+    position: relative;
+    right: -20%;   
+    top: -400px;
+    color: white;
+}
+figure div h1{
+    color: cornflowerblue;
+}
+.bouton{
+    color: white;
+    background-color: cornflowerblue;
+    border-color:white;
+    border-bottom-width: 5px;
+    width: 20%;
+    height: 3em;
+    font-size: 1em;
+    
 nav a{
+    display: flex: ;
     margin: auto; 
     justify-content: space-between;
     display: flex;
     align-items: center;  
 }
-figure{
-   padding: 100px;
-   margin: auto;
-}
-.NOS h1{
-    text-align: center;  
-    
-}
-.NOS p{
+.services{
+    display: flex;
+    justify-content: space-between;
     text-align: center;
+}
+
+
+.NOS p{
+    text-align: right;
+
 }
 button a{
     display: flex;
