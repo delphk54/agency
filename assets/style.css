@@ -4,10 +4,9 @@ header{
     margin: auto;
 }
 main{
-    width: 80%;
+    width: 100%;
     position: absolute;
 }
-
 figure{
     padding: 100px;
     margin: auto;
@@ -19,12 +18,27 @@ figure div{
     color: white;
 }
 figure div h1{
-    color: cornflowerblue;
+    color: blue;
 }
-section header{
-  text-align: center;
+.services{
+    display: block;
+    text-align: center;  
+    justify-content: space-around;
 }
-    
+#moncercle{
+  display: flex;
+  background:#bfd70e;
+  border-radius:50%;
+  width:10px;
+  height:10px;
+  border:2px solid #679403; 
+  margin: auto;
+  
+}
+.projets{
+    display: block;
+    text-align: center;  
+    justify-content: space-around;
 }
 .bouton{
     color: white;
@@ -34,13 +48,13 @@ section header{
     width: 20%;
     height: 3em;
     font-size: 1em;
-    
-nav a {
+}   
+nav a{
     display: flex ;
     margin : auto; 
-    justify-content: space-between;
-    display: flex;
-    align-items: center;  
+    justify-content: space-around;
+    text-align: right;
+    
 }
 button a{
     display: flex;
