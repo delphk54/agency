@@ -7,7 +7,7 @@ main{
     width: 80%;
     position: absolute;
 }
-/*  */
+
 figure{
     padding: 100px;
     margin: auto;
@@ -21,32 +21,26 @@ figure div{
 figure div h1{
     color: cornflowerblue;
 }
+section header{
+  text-align: center;
+}
+    
+}
 .bouton{
     color: white;
-    background-color: cornflowerblue;
+    background-color: blue;
     border-color:white;
     border-bottom-width: 5px;
     width: 20%;
     height: 3em;
     font-size: 1em;
     
-nav a{
-    display: flex: ;
-    margin: auto; 
+nav a {
+    display: flex ;
+    margin : auto; 
     justify-content: space-between;
     display: flex;
     align-items: center;  
-}
-.services{
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-}
-
-
-.NOS p{
-    text-align: right;
-
 }
 button a{
     display: flex;
