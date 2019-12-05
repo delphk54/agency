@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
-    <header>
-       
+    <header> 
            <div id="logo">
                <img src="./assets/images/images/slider/logo.png" alt="logo">
            </div>
@@ -23,6 +22,7 @@
             </nav> 
     </header>
     <main>
+        
            <figure>
                  <img src="./assets/images/images/slider/bg1.jpg" alt="">
                     <div>
@@ -32,15 +32,16 @@
                      <button class="bouton">Plus d'infos</button>
                     </div>
            </figure>
+        
         <section>
-           <div class=" services">    
+               <div class=" services">    
                    <h1>NOS SERVICES</h1>
                    <div id="moncercle"></div>     
                    <p>bla bla bla bla bla bla bla bla</p>                        
-            </div> 
-            <div class="ordi">
+                 </div> 
+                 <div class="ordi">
                      <img src="./assets/images/images/main-feature.png" alt="">
-            </div>
+               </div>
         </section>
 
         
@@ -87,20 +88,34 @@
         </section>
             <footer>
                 <img src="./assets/images/images/portfolio/full.jpg" height="100%" width="100%">
-                <form action="/ma-page-de-traitement" method="post">
-                    <div>
-                        <label for="name">Nom :</label>
-                        <input type="text" id="name" name="user_name">
-                    </div>
-                    <div>
-                        <label for="mail">e-mail :</label>
-                        <input type="email" id="mail" name="user_mail">
-                    </div>
-                    <div>
-                        <label for="msg">Message :</label>
-                        <textarea id="msg" name="user_message"></textarea>
-                    </div>
-                </form>
+                <form id="myform" class="cssform" action="">
+
+                        <p><label for="user">Nom :</label>
+                        <input type="text" id="user" value="" /></p>
+                    
+                        <p><label for="emailaddress">Email :</label>
+                        <input type="text" id="emailaddress" value="" /></p>
+                    
+                        <p><label for="comments">Message :</label>
+                        <textarea id="comments" rows="5" cols="25"></textarea></p>
+                    
+                        <p><label for="comments">Sexe :</label>
+                        Homme :<input type="radio" name="sex" />
+                        Femme :<input type="radio" name="sex" /></p>
+                    
+                        <p><label for="comments">Big Mac :</label>
+                        <input type="checkbox" name="hobby" /> Big Tasty
+                        <input type="checkbox" name="hobby" class="threepxfix" /> Beef BBQ
+                        <input type="checkbox" name="hobby" class="threepxfix" /> CBO</p>
+                    
+                        <p><label for="terms">Conditions g&eacute;n&eacute;rales accept&eacute;es</label>
+                        <input type="checkbox" id="terms" class="boxes" /></p>
+                    
+                        <p><div style="margin-left: 150px;">
+                            <input type="submit" value="Envoyer" />
+                            <input type="reset" value="Reset" />
+                        </div></p>
+                    </form>
             </footer>
 
     </main>

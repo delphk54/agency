@@ -4,11 +4,10 @@ header{
     margin: auto;
 }
 main{
-    width: 100%;
     position: absolute;
 }
-main figure{
-    margin: auto;
+main figure img{
+    align-items: center;
 }
 figure div{
     position: relative;
@@ -41,6 +40,11 @@ figure div h1{
 }
 section nav ul{
     text-align: center;
+    
+}
+section nav ul button a{
+    background-color: blue;
+    color: white;
 }
 .bouton{
     color: white;
@@ -103,6 +107,15 @@ section nav ul{
     width: 30%;
     margin: 5px 5px 5px 5px;
 } 
-
+footer img{
+    padding: 200px;
+    height: 100%;
+    width:100%;
+}
+.cssform{
+    position: relative;
+    right: -90%;   
+    top: -900px; 
+}
 
     
