@@ -7,8 +7,7 @@ main{
     width: 100%;
     position: absolute;
 }
-figure{
-    padding: 100px;
+main figure{
     margin: auto;
 }
 figure div{
@@ -40,6 +39,9 @@ figure div h1{
     text-align: center;  
     justify-content: space-around;
 }
+section nav ul{
+    text-align: center;
+}
 .bouton{
     color: white;
     background-color: blue;
@@ -49,33 +51,58 @@ figure div h1{
     height: 3em;
     font-size: 1em;
 }   
-.projets nav ul div button a{
-    display: flex;
-    justify-content: space-around;
-}
-button a{
-    display: flex;
-    text-align: center;
-} 
 .image{
-   display: flex;
-   justify-content: space-around;
-   margin-left:20%;
-   margin-right: 20%; 
-   
+    padding: 50px;
+    display: flex;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 .images{
+    padding: 50px;
     display: flex;
-    justify-content: space-around;
-    margin-left:20%;
-    margin-right: 20%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-
+    margin-right: 10%;
+    margin-left: 10%;
 }
-    
-
-   
+ .moustache{
+     height:30%;
+     width: 30%;
+     margin: 5px 5px 5px 5px;
+} 
+.lapin{
+    height:30%;
+    width: 30%;
+    margin: 5px 5px 5px 5px;
+}
+.pompadour{
+    height:30%;
+    width: 30%;
+    margin: 5px 5px 5px 5px;
+}
+.livre{
+    height:30%;
+    width: 30%;
+    margin: 5px 5px 5px 5px;
+}
+.sac{
+    height:30%;
+    width: 30%;
+    margin: 5px 5px 5px 5px;
+}
+.ville{
+    height:30%;
+    width: 30%;
+    margin: 5px 5px 5px 5px; 
+}
+.fusée{
+    height:30%;
+    width: 30%;
+    margin: 5px 5px 5px 5px;
+}  
+.access{
+    height:30%;
+    width: 30%;
+    margin: 5px 5px 5px 5px;
+} 
 
 
     
