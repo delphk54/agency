@@ -30,8 +30,7 @@ figure div h1{
   width:10px;
   height:10px;
   border:4px solid aqua; 
-  margin: auto;
-  
+  margin: auto;  
 }
 .projets{
     display: block;
@@ -42,9 +41,10 @@ section nav ul{
     text-align: center;
     
 }
-section nav ul button a{
+nav ul div button a{
     background-color: blue;
     color: white;
+    
 }
 .bouton{
     color: white;
